@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 6px 6px 8px 0px rgb(137, 135, 135);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header span{
+    display: none;
+}
+header h1{
+    margin-left: 20px;
+}
+header h1 a{
+    text-decoration: none;
+    font-size: 60px;
+    color: #bc6c25;
+}
+.navLinkH{
+    color:#bc6c25 ;
+}
+header nav a:hover{
+    color: #bc6c25;
+}
+header nav ul{
+    display: flex;
+    margin-right: 40px;
+}
+header  ul li{
+    list-style-type: none;
+    padding-right: 30px;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+.heroPage{
+    height: 100vh;
+    width: 100%;
+    
+    background-image: linear-gradient(
+        to bottom,
+        rgba(27, 25, 25, 0.699),
+        rgba(34, 31, 31, 0.73)
+    ),
+  url('edward-cisneros-QSa-uv4WJ0k-unsplash.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+margin-bottom: 150px;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fefae0;
+}
+.text p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.text h2{
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+.text span{
+    font-family: "Playwrite AT", cursive;
+}
+.domH{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.infotxt h3{
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.infotxt p{
+    width: 300px;
+    line-height: 40px;
+}
+.infotxt button a{
+    text-decoration: none;
+    color:#fefae0;
+    background-color: #bc6c25;
+    padding: 10px 40px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.infotxt button{
+    border: none;
+    margin-top: 20px;
+    
+}
+.tt img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.tt figcaption{
+    font-weight: 600;
+}
+
+.betH{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    margin-top: 100px;
+}
+
+.ligH{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.gloH{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #283618;
+    color: #fefae0;
+    padding: 100px;
+    margin-top: 30px;
+}
+footer p{
+    width: px;
+    line-height: 30px;
+}
+.part1 h6{
+    font-size: 22px;
+}
+.part1 button a{
+    text-decoration: none;
+    color: #283618;
+    background-color: #fefae0;
+    padding: 10px 40px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.part1 button{
+    border: none;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.part2 a:hover{
+    color: #bc6c25;
+}
+.part2 a{
+    text-decoration: none;
+    color:#fefae0;
+    font-size: 70px;
+}
+.part3 nav{
+    margin-top: 10px;
+}
+.part3 nav i{
+    padding-right: 10px;
+    font-size: 22px;
+}
+.rights{
+    text-align: center;
+    font-weight: 700;
+}
+.rights a{
+    text-decoration: none;
+    color: #bc6c25;
+}
+footer p{
+    max-width: 180px;
+}
+
+@media screen  and (max-width: 600px){
+    .header span{
+        display: block;
+        font-size: 80px;
+        color: #bc6c25;
+    }
+    .header{
+        position: fixed;
+    }
+  header {
+    display: none;
+ flex-direction: column;
+ 
+
+}
+.open{
+    display: block;
+}
+  header nav ul{
+    flex-direction: column;
+    line-height: 70px;
+    padding-left: 30px;
+    
+  }
+  .tt img {
+    margin-top: 30px;
+  }
+  footer{
+    flex-direction: column;
+  }
+  .part1{
+    margin-bottom: 15px;
+  }
+  .part2{
+    margin-bottom: 15px;
+  }
+}

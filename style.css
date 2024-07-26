@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 6px 6px 8px 0px rgb(137, 135, 135);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header span{
+    display: none;
+}
+header h1{
+    margin-left: 20px;
+}
+header ul a:hover{
+    color: #bc6c25;
+}
+header h1 a{
+    text-decoration: none;
+    font-size: 60px;
+    color: #bc6c25;
+}
+.navLinkH{
+    color:#bc6c25 ;
+}
+
+header nav ul{
+    display: flex;
+    margin-right: 40px;
+}
+header  ul li{
+    list-style-type: none;
+    padding-right: 30px;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+.heroPage{
+    height: 100vh;
+    width: 100%;
+    
+    background-image: linear-gradient(
+        to bottom,
+        rgba(27, 25, 25, 0.699),
+        rgba(34, 31, 31, 0.73)
+    ),
+  url('edward-cisneros-QSa-uv4WJ0k-unsplash.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+margin-bottom: 150px;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fefae0;
+}
+.text p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.text h2{
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+.text span{
+    font-family: "Playwrite AT", cursive;
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: left;
+    
+    margin-top: 0px;
+}
+.details p{
+    width: 300px;
+}
+.mission{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 6px 6px 15px 0px rgb(137, 135, 135);
+    border-radius: 10px;
+}
+.mission h3{
+    padding-bottom: 20px;
+    color: #bc6c25;
+}
+.vision{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 6px 6px 15px 0px rgb(137, 135, 135);
+    border-radius: 10px;
+}
+.vision h3{
+    padding-bottom: 20px;
+    color: #bc6c25;
+}
+.goals{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 6px 6px 15px 0px rgb(137, 135, 135);
+    border-radius: 10px;
+}
+.goals h3{
+    padding-bottom: 20px;
+    color: #bc6c25;
+}
+.believe h2{
+    margin-bottom: 70px;
+    font-size: 35px;
+    color: #bc6c25;
+}
+.believe{
+    text-align: center;
+    color: black;
+    margin-bottom: 200px;
+}
+.founder{
+    color: #fefae0;
+    text-align: center;
+    background-color: #606c38;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    
+}
+.founder h4{
+    font-size: 30px;
+    padding-bottom: 70px;
+}
+.founderHub{
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.founderHub h5{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.founderHub p{
+    line-height: 30px;
+}
+.founderHub img{
+    border-radius: 10px;
+}
+.info{
+    width: 300px;
+
+}
+.info button a{
+    text-decoration: none;
+    color:#606c38;
+}
+.info button {
+    border: none;
+    background-color: white;
+    padding: 10px 30px;
+    
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.info p a{
+    color: #bc6c25;
+}
+.info p a:hover{
+    color: white;
+}
+.info p a:visited{
+    color: #606c38;
+}
+.houses{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.houses h5{
+    text-align: center;
+    font-size: 28px;
+    color: #bc6c25;
+}
+.houseDetails{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+.houseDetails h6{
+    font-size: 22px;
+    color: #bc6c25;
+    padding-bottom: 10px;
+}
+.houseDetails p{
+    width: 300px;
+    line-height: 30px;
+}
+.houseDetails button a{
+    text-decoration: none;
+    color: #fefae0;
+}
+.houseDetails button{
+    background-color: #bc6c25;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #283618;
+    color: #fefae0;
+    padding: 100px
+}
+footer p{
+    width: px;
+    line-height: 30px;
+}
+.part1 h6{
+    font-size: 22px;
+}
+.part1 button a{
+    text-decoration: none;
+    color: #283618;
+    background-color: #fefae0;
+    padding: 10px 40px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.part1 button{
+    border: none;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.part2 a:hover{
+    color: #bc6c25;
+}
+.part2 a{
+    text-decoration: none;
+    color:#fefae0;
+    font-size: 70px;
+}
+.part3 nav{
+    margin-top: 10px;
+}
+.part3 nav i{
+    padding-right: 10px;
+    font-size: 22px;
+}
+.rights{
+    text-align: center;
+    font-weight: 700;
+}
+.rights a{
+    text-decoration: none;
+    color: #bc6c25;
+}
+footer p{
+    max-width: 180px;
+}
+
+@media screen  and (max-width: 600px){
+    .header span{
+        display: block;
+        font-size: 80px;
+        color: #bc6c25;
+    }
+    .header{
+        position: fixed;
+    }
+  header {
+    display: none;
+ flex-direction: column;
+ 
+
+}
+.open{
+    display: block;
+}
+  header nav ul{
+    flex-direction: column;
+    line-height: 70px;
+    padding-left: 30px;
+    
+  }
+   .details{
+    flex-direction: column;
+    padding: 0px;
+    margin-bottom: 40px;
+   }
+   
+   .mission{
+    padding: 20px;
+    margin-bottom:20px;
+    
+   }
+   .goals{
+    padding: 20px;
+    margin-bottom: 20px;
+   }
+   .vision{
+    padding: 20px;
+   }
+   .info{
+    padding-bottom: 40px;
+   }
+  .dominionH{
+    padding-bottom: 20px;
+  }
+  .bethelH{
+    padding-bottom: 20px;
+  }
+  .gloryH{
+    padding-bottom: 20px;
+  }
+  .lightH{
+    padding-bottom: 20px;
+  }
+  footer{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .part1{
+    padding-bottom: 30px;
+  }
+  .part2{
+    padding-bottom: 30px;
+  }
+  .part3{
+    padding-bottom: 30px;
+    word-break: break-all;
+  }
+}
