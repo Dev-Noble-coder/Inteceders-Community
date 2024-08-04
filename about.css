@@ -205,7 +205,7 @@ footer p{
 @media screen  and (max-width: 600px){
     .header span{
         display: block;
-        font-size: 80px;
+        font-size: 40px;
         color: #bc6c25;
     }
     .header{
